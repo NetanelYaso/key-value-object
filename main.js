@@ -98,14 +98,12 @@
 // function dogObject(){
 //     var num = +prompt('enter number');
 //     for(var i =0 ; i<num; i++){
-//         if(i<num){
 //             var dog= {};
 //             dog.name = prompt('enter dog name');
 //             dog.age = +prompt('enter dog age');
 //             dog.brand = prompt('enter dog brand');
 //             dog.onwersname = prompt('enter dog ownersname');
 //             document.write('<p>'+dog.name+' '+dog.age+' '+dog.brand+' '+dog.onwersname+'</p>');
-//         }
 //     }
 // }
 // dogObject();
@@ -113,15 +111,14 @@
 // function bugObject(){
 //     var num = +prompt('enter a number');
 //     for(var i =0; i<num; i++){
-//         if(i<num){
+     
 //             var bug = {};
 //             bug.name = prompt('enter bug name');
 //             bug.siencename = prompt('enter bug sience name');
 //             bug.legsnumber = +prompt('enter bug legs number');
 //             bug.wings = prompt('does the bug have wings?');
 //             if(bug.wings){
-//                 document.write('<h3>'+bug.name+' '+bug.siencename+' '+bug.legsnumber+' '+bug.wings+'<h3>');
-//             }        
+//                 document.write('<h3>'+bug.name+' '+bug.siencename+' '+bug.legsnumber+' '+bug.wings+'<h3>'); 
 //         }
 //     }
 // }
@@ -130,14 +127,12 @@
 // function kidObject() {
 //    var num =  +prompt('enter a number');
 //    for(var i=0; i<num; i++){
-//        if(i<num){
 //            var kid ={}
 //            kid.fullname = prompt('enter full name');
 //            kid.age = +prompt('enter age');
 //            kid.kindergarden = prompt('Are you in kindergarden?');
 //            if(kid.age==4){
 //                document.write('<p>'+kid.fullname+' '+kid.age+' '+kid.kindergarden+'</p>');
-//            }
 //        }
 //    }
 // }
@@ -172,3 +167,46 @@
 // }
 // teacherObject(2) 
 
+// function furnitureObject(num) {
+//     for(var i=0; i<num; i++){
+//             var furnitur ={};
+//             furnitur.name = prompt('enter name');
+//             furnitur.brand = prompt('enter brand');
+//             furnitur.stors = prompt([]);
+//             furnitur.price = +prompt('enter price');
+//             document.write(furnitur.name +'<br>'+ furnitur.stors);
+//     }
+// }
+// furnitureObject(2);
+
+// function negotiationObject(num) {
+//     for(var i=0; i<num; i++){
+//         var negotiation = {};
+//         negotiation.address = prompt('enter address');
+//         negotiation.rentprice = +prompt('enter rent price');
+//         negotiation.buyprice = +prompt('enter buy price');
+//         negotiation.potencialbuyers = prompt([])
+//         negotiation.arbitration = prompt('enter if there is arbitration');
+//         if(negotiation.arbitration=='no'){
+//             document.write(negotiation.address+' '+negotiation.rentprice+' '+negotiation.buyprice+' '+negotiation.arbitration);
+//         }
+//         document.write(negotiation.address +'<br>'+negotiation.potencialbuyers);
+//     }
+// }
+// negotiationObject(1);
+
+// function contryObject() {
+//     var num = +prompt('enter number');
+//     for(var i =0; i<num; i++){
+//         var contry = {}
+//         contry.name = prompt('enter name');
+//         contry.sivilannumbers = +propmt('enter sivilian numbers');
+//         contry.cities = prompt([]);
+//         contry.habad = prompt('is there a bet habad?');
+//         if(contry.habad){
+//             document.write(contry.name+' '+contry.sivilannumbers+' '+contry.cities+' '+contry.habad)
+//         }
+//         document.write(contry.name+'<br>'+contry.cities)
+//     }
+// }
+// contryObject()
